@@ -7,7 +7,7 @@
     "build": "time next build",
     "start": "next start",
     "static": "NEXT_STATIC='yes' time next build && time next export",
-    "export": "BASE_PATH=/next time next build && time next export && rsync -axvH $HOME/vertramp/out/ $HOME/www/next/"
+    "export": "BASE_PATH=/next time next build && time next export -o $HOME/www/next/"
   },
   "dependencies": {
     "@mdx-js/loader": "^1.6.22",

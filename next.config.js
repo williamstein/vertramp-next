@@ -22,4 +22,5 @@ module.exports = withMDX({
     webpack5: true,
   },
   pageExtensions: ["md", "mdx", "jsx", "js", "ts", "tsx"],
+  trailingSlash: true /* see https://stackoverflow.com/questions/62867105/how-to-deal-with-nextjs-exporting-files-with-html-extension-but-inlink-there */
 });
