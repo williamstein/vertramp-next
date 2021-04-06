@@ -9,7 +9,11 @@ if (process.env.COCALC_PROJECT_ID) {
   }
 }
 
-module.exports = {
+const withMDX = require("@next/mdx")({
+  extension: /\.md?$/,
+});
+
+module.exports = withMDX({
   basePath,
   env: {
     basePath,
@@ -17,5 +21,5 @@ module.exports = {
   future: {
     webpack5: true,
   },
-  pageExtensions: ["jsx", "js", "ts", "tsx"],
-};
+  pageExtensions: ["md", "mdx", "jsx", "js", "ts", "tsx"],
+});
