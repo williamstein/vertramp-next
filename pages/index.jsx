@@ -1,21 +1,19 @@
 import Head from "next/head";
 import Link from "next/link";
-import css from "styles/Home.module.css";
 import Image from "components/image";
 import Ramps from "components/ramps";
 
 export default function Home({ ramps }) {
   return (
-    <div className={css.container}>
+    <div>
       <Head>
         <title>Vert Ramps</title>
         <link rel="icon" href={`${process.env.basePath}/favicon.ico`} />
       </Head>
 
-      <main className={css.main}>
+      <main>
         <Ramps ramps={ramps} />
       </main>
-
     </div>
   );
 }
@@ -27,7 +25,7 @@ export async function getStaticProps(context) {
   const filenames = await fs.readdir(dir);
   const ramps = [];
   for (const filename of filenames) {
-    if (!(await fs.stat(dir + '/' + filename)).isFile()) continue;
+    if (!(await fs.stat(dir + "/" + filename)).isFile()) continue;
     const { frontMatter } = await import("pages/ramps/" + filename);
     const base = filename.split(".").slice(0, -1).join(".");
     const url = "/ramps/" + base;
