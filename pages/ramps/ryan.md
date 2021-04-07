@@ -7,9 +7,8 @@ priority: 1
 ---
 # Ryan Spence's
 
+<img src="../../public/images/ryan1.png"   width="383px"  height="254px" />
 
-import Image from "components/image";
+[Ryan Spence](https://www.linkedin.com/in/ryan-spence-1908211a5) has a private warehouse in Tacoma, WA. 
 
-<Image src="/images/ryan1.png"  width={271} height={181}/>
-
-[Ryan Spence](https://www.linkedin.com/in/ryan-spence-1908211a5)'s has a 5-th floor warehouse in Tacoma, WA. It contains a 20' wide 11' vert ramp with a fast birch surface, a spine mini ramp with several heights and corners, another mini ramp, a first class climbing wall, a mini mega ramp, and much more.
+Ryan's warehouse contains a 20' wide 11' vert ramp with a fast dry birch surface, a spine mini ramp with several heights and corners, another 4' mini ramp, first class climbing walls with a large number of experimental holds, a mini mega ramp, a photo studio, and much more.

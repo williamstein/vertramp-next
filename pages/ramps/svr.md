@@ -6,14 +6,15 @@ status: 'active'
 type: 'private'
 priority: 0
 ---
-
 # Seattle Vert Ramp
 
-import Image from "components/image";
+<img src="../../public/images/svr-pano.jpg"   width="584px"  height="188px" />
 
-<Image src="/images/svr-pano.jpg"  width={617} height={200}/>
+Seattle Vert Ramp (SVR) is our ramp pictured above, which we built in 2012.
 
-Seattle Vert Ramp is our ramp, and is pictured [above.It](http://above). It's 56' wide, 13.5' tall with 2' vert, has 8' wide 15.5' extensions.  It's four layers of wood and 1 layer of new Skatelite laid diagonally at an angle with all edges rounded.   This ramp was designed and construction led by [Ryan Spence](https://www.linkedin.com/in/ryan-spence-1908211a5).
+SVR is 56' wide, 13.5' tall with 2' vert.  It also has two 8' wide 15.5' extensions (for 4' of vert).  It's surface consists of four layers of plywood and 1 layer of [Skatelite](https://www.skatelite.com/) laid diagonally at an angle with all edges rounded.   It's covered with a 15,000 pound [ClearSpan](https://www.clearspan.com/) roof, which is set directly on top of the ramp itself.
+
+The ramp was designed and construction led by [Ryan Spence](https://www.linkedin.com/in/ryan-spence-1908211a5) who also built [his ramps in Tacoma](../ryan).
 
 - I did 43 tricks at SVR on my 43rd birthday
 

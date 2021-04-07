@@ -11,7 +11,11 @@ const loader = ({ src }) => {
 function Image1(props) {
   const props2 = { loader };
   for (const key in props) {
-    props2[key] = props[key];
+    if (key == "src") {
+      props2[key] = ensureAbsolutePath(props[key]);
+    } else {
+      props2[key] = props[key];
+    }
   }
   return React.createElement(require("next/image").default, props2 as any);
 }
@@ -21,7 +25,7 @@ function Image2(props) {
   const props2 = { loader };
   for (const key in props) {
     if (key == "src") {
-      props2[key] = basePath + props[key];
+      props2[key] = basePath + ensureAbsolutePath(props[key]);
     } else {
       props2[key] = props[key];
     }
@@ -31,4 +35,13 @@ function Image2(props) {
 
 export default function MyImage(props) {
   return basePath.indexOf("raw") != -1 ? Image2(props) : Image1(props);
+}
+
+function ensureAbsolutePath(s) {
+  if (s.startsWith("..")) {
+    // relative link
+    const i = s.indexOf("/images/");
+    return s.slice(i);
+  }
+  return s;
 }
