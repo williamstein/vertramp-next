@@ -26,9 +26,11 @@ export default function Layout({ children }) {
       <div style={{ color: "#555" }}>{children}</div>
 
       <footer className={css.footer}>
-        If you know of a ramp that is not listed or something needs updating, please email me:&nbsp;
-        <a href="mailto:wstein@gmail.com">wstein@gmail.com</a>.  If you have a nice picture, send it
-        to me.
+        <div>
+          If you know of a vert ramp that is not listed or something needs updating,
+          please email me!
+          <a href="mailto:wstein@gmail.com">William Stein -- wstein@gmail.com</a>
+        </div>
       </footer>
     </>
   );

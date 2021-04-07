@@ -9,6 +9,23 @@ export default function MDXImage(props) {
       props2[key] = props[key];
     }
   }
+  if (
+    props2["width"] == null &&
+    props2["height"] == null &&
+    props2["layout"] == null
+  ) {
+    return (
+      <span>
+        <Image {...props2} width={200} height={200} />
+        <br />
+        <span style={{ background: "red", color: "white", padding: "10px" }}>
+          ERROR: You must explicitly set the above image's width and height
+          (e.g., resize it in the editable view).
+        </span>
+        <br />
+      </span>
+    );
+  }
 
   return <Image {...props2} />;
 }
