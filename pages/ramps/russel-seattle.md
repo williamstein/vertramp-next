@@ -1,8 +1,8 @@
-export const meta = {
-  title: "Russel's backyard mini vert ramp",
-  location: 'Seattle, WA',
-  type: 'private',
-}
+---
+title: "Russel's backyard mini vert ramp"
+location: 'Seattle, WA'
+type: 'private'
+---
 
 # Russel's backyard mini vert ramp in Seattle
 

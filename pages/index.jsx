@@ -37,10 +37,10 @@ export async function getStaticProps(context) {
   const filenames = await fs.readdir(dir);
   const ramps = [];
   for (const filename of filenames) {
-    const { meta } = await import("pages/ramps/" + filename);
+    const { frontMatter } = await import("pages/ramps/" + filename);
     const base = filename.split(".").slice(0, -1).join(".");
     const url = "ramps/" + base;
-    ramps.push({ ...(meta ?? { title: base }), url });
+    ramps.push({ ...(frontMatter ?? { title: base }), url });
   }
   ramps.sort((a, b) => {
     const x = a.priority ?? 999999,

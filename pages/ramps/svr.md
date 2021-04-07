@@ -1,13 +1,15 @@
-export const meta = {
-  title: 'Seattle Vert Ramp',
-  location: 'West Seattle, WA',
-  status: 'active',
-  type: 'private',
-  priority: 0
-}
-import Image from "components/image";
+---
+name: 'foo'
+title: 'Seattle Vert Ramp'
+location: 'West Seattle, WA'
+status: 'active'
+type: 'private'
+priority: 0
+---
 
 # Seattle Vert Ramp
+
+import Image from "components/image";
 
 <Image src="/images/svr-pano.jpg"  width={617} height={200}/>
 
