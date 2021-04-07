@@ -13,19 +13,9 @@ export default function Home({ ramps }) {
       </Head>
 
       <main className={css.main}>
-        <div style={{ marginBottom: "15px" }}>
-          <Image src="/images/svr-pano.jpg" width={750} height={250} />
-        </div>
-        <h1 className={css.title}>Vert Ramps</h1>
-
         <Ramps ramps={ramps} />
       </main>
 
-      <footer className={css.footer}>
-        If you know of a ramp (public or private) that is not listed or the
-        specs are wrong, email me:&nbsp;
-        <a href="mailto:wstein@gmail.com">wstein@gmail.com</a>.
-      </footer>
     </div>
   );
 }
@@ -37,9 +27,10 @@ export async function getStaticProps(context) {
   const filenames = await fs.readdir(dir);
   const ramps = [];
   for (const filename of filenames) {
+    if (!(await fs.stat(dir + '/' + filename)).isFile()) continue;
     const { frontMatter } = await import("pages/ramps/" + filename);
     const base = filename.split(".").slice(0, -1).join(".");
-    const url = "ramps/" + base;
+    const url = "/ramps/" + base;
     ramps.push({ ...(frontMatter ?? { title: base }), url });
   }
   ramps.sort((a, b) => {

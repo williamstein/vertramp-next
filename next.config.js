@@ -23,7 +23,8 @@ module.exports = withMDX({
 NOTES:
 
 - See https://stackoverflow.com/questions/62867105/how-to-deal-with-nextjs-exporting-files-with-html-extension-but-inlink-there
-  for more about why the tailing slate is critical for us!
+  for more about trailingSlash.  We enable it so users can share or refresh the URLs of pages
+  they see for each ramp.
 
 
 */
