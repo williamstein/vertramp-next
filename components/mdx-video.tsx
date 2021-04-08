@@ -27,12 +27,13 @@ export default function Video({ src }: { src: string }) {
     },
   };
   return (
-    <div style={{ margin: "15px 0", textAlign: "center" }}>
+    <div style={{ margin: "15px 0" }}>
       <div
         style={{
           position: "relative",
           paddingBottom: "56.25%",
           width: "90%",
+          maxWidth: "600px",
           margin: "0 auto",
         }}
       >
