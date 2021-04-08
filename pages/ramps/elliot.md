@@ -1,5 +1,5 @@
 ---
-title: "Elliot Sloae's Ramp"
+title: "Elliot Sloan's Ramp"
 location: Vista, CA
 status: active
 type: private

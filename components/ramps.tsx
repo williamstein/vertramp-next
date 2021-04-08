@@ -42,18 +42,24 @@ export function RampSummary({ ramp, long }: { ramp: Ramp; long?: boolean }) {
     <span>
       {ramp.title} - {ramp.location}
       {ramp.type == "public" ? " - Public" : " - Private"}{" "}
-      <span> - <Status ramp={ramp}/></span>
+      <span>
+        {" "}
+        - <Status ramp={ramp} long={long} />
+      </span>
       {long && ramp.submitted ? ` - submitted by ${ramp.submitted}` : undefined}
     </span>
   );
 }
 
-export function Status({ ramp }: { ramp: Ramp }) {
+export function Status({ ramp, long }: { ramp: Ramp; long?: boolean }) {
+  let x;
   if (ramp.status == "opened" || ramp.status == "active") {
-    return <b>Opened</b>;
+    x = <b>Opened</b>;
+  } else if (ramp.status == "closed") {
+    x = <span>Closed</span>;
+  } else {
+    x = <span>Unknown</span>;
   }
-  if (ramp.status == "closed") {
-    return <span> Closed</span>;
-  }
-  return <span>Unknown</span>;
+  if (!long) return x;
+  return <span>Status: {x}</span>
 }
