@@ -15,6 +15,11 @@ Rune Glifberg was there that day filming a sick line using a drone (he kept tryi
 The vert ramp is in a public skatepark that also has some concrete bowls. Completely by coincidence there was a huge contest there when I was there, with many top bowl pros of 2014. I mainly remember Sky Siljeg representing, and Austin Poynter blasting (but almost never landing) ridiculously huge airs on a relatively small concrete
 bowl.
 
+<img src="../../public/images/sky-austin.png"   width="500px"  height="356px" />
+Sky Siljeg and Austin Poynter
+
+<br/>
+
 <img src="../../public/images/copenhagen-contest.png"   width="700px"  height="242px" />
 
 ### Other
