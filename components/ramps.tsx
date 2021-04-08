@@ -24,8 +24,8 @@ function Ramp({ ramp }: { ramp: Ramp }) {
   return (
     <Link href={ramp.url}>
       <a>
-        {ramp.title} - {ramp.location},{" "}
-        {ramp.type == "public" ? "Public" : "Private"}{" "}
+        {ramp.title} - {ramp.location}
+        {ramp.type == "public" ? " - Public" : " - Private"}{" "}
         {ramp.status == "active" ? <b> (active)</b> : ""}
       </a>
     </Link>

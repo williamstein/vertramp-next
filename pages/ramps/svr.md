@@ -1,5 +1,4 @@
 ---
-name: 'foo'
 title: 'Seattle Vert Ramp'
 location: 'West Seattle, WA'
 status: 'active'
