@@ -37,7 +37,7 @@ function Ramp({ ramp }: { ramp: Ramp }) {
   );
 }
 
-export function RampSummary({ ramp, long }: { ramp: Ramp; long: boolean }) {
+export function RampSummary({ ramp, long }: { ramp: Ramp; long?: boolean }) {
   return (
     <span>
       {ramp.title} - {ramp.location}

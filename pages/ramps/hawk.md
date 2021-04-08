@@ -18,3 +18,12 @@ it can't be put back together again.
 The surface of the ramp was hardwood "beech" for a long time.
 I think it's now skatelite, as of 2019?
 
+Ryan Spence, Jacob Spence and me at Hawk's Ramp Jan 2018, when it had a wood surface:
+
+<img src="../../public/images/ryan-william-hawks.png" width="700px" height="525px"/>
+
+<br/><br/>
+
+Adam Taylor and I at Hawk's in Jan 2018:
+
+<img src="../../public/images/taylor-william-hawks.png" width="700px" height="408px"/>
