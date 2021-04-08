@@ -1,6 +1,7 @@
 import Link from "next/link";
+import { RampSummary } from "./ramps";
 
-export default function Layout({ children }) {
+export default function Layout({ children, frontMatter }) {
   return (
     <>
       <div
@@ -16,6 +17,9 @@ export default function Layout({ children }) {
             <span style={{ fontSize: "32px" }}>Vert Ramps</span>
           </a>
         </Link>
+        <h3 style={{ float: "right", marginTop: "15px", color:"#333" }}>
+          {frontMatter && <RampSummary ramp={frontMatter} long={true} />}
+        </h3>
       </div>
 
       <div

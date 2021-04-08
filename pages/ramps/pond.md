@@ -16,5 +16,5 @@ This is a famous ramp with tons of well publicized exciting vert sessions.
 
 
 
-<iframe src="https://player.vimeo.com/video/101365600" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe>
+<iframe src="https://player.vimeo.com/video/101365600"  frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe>
 <p><a href="https://vimeo.com/101365600">Party at the Ponds</a> from <a href="https://vimeo.com/vertskateboarding">Vert Skateboarding</a> on <a href="https://vimeo.com">Vimeo</a>.</p>

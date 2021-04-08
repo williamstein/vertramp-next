@@ -12,7 +12,7 @@ const components = {
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Layout>
+    <Layout frontMatter={Component.frontMatter}>
       <MDXProvider components={components}>
         <Component {...pageProps} />
       </MDXProvider>

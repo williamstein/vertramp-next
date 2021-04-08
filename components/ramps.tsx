@@ -9,28 +9,51 @@ export default function Ramps({ ramps }) {
       </li>
     );
   }
-  return <div>
-    <h2>Ramps</h2>
-    <ul>{v}</ul>
-  </div>;
+  return (
+    <div>
+      <h2>Ramps</h2>
+      <ul>{v}</ul>
+    </div>
+  );
 }
 
-interface Ramp {
-  url: string;
+export interface Ramp {
+  url?: string;
   title: string;
   location?: string;
   status?: string;
   type?: string;
+  submitted?: string;
 }
 
 function Ramp({ ramp }: { ramp: Ramp }) {
+  if (ramp.url == null) return <RampSummary ramp={ramp} />;
   return (
     <Link href={ramp.url}>
       <a>
-        {ramp.title} - {ramp.location}
-        {ramp.type == "public" ? " - Public" : " - Private"}{" "}
-        <b> ({ramp.status ?? "unknown status"})</b>
+        <RampSummary ramp={ramp} long={false} />
       </a>
     </Link>
   );
+}
+
+export function RampSummary({ ramp, long }: { ramp: Ramp; long: boolean }) {
+  return (
+    <span>
+      {ramp.title} - {ramp.location}
+      {ramp.type == "public" ? " - Public" : " - Private"}{" "}
+      <span> - <Status ramp={ramp}/></span>
+      {long && ramp.submitted ? ` - submitted by ${ramp.submitted}` : undefined}
+    </span>
+  );
+}
+
+export function Status({ ramp }: { ramp: Ramp }) {
+  if (ramp.status == "opened" || ramp.status == "active") {
+    return <b>Opened</b>;
+  }
+  if (ramp.status == "closed") {
+    return <span> Closed</span>;
+  }
+  return <span>Unknown</span>;
 }

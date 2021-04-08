@@ -2,7 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "components/image";
 import Ramps from "components/ramps";
-import A from "components/mdx-link"
+import A from "components/mdx-link";
 
 export default function Home({ ramps }) {
   return (
@@ -15,10 +15,19 @@ export default function Home({ ramps }) {
       <main>
         <div style={{ marginBottom: "30px" }}>
           <Link href="/ramps/svr/">
-            <Image src="/images/svr-pano-small.jpg" width={450} height={150} />
+            <a>
+              <Image
+                src="/images/svr-pano-small.jpg"
+                width={450}
+                height={150}
+              />
+            </a>
           </Link>
           <Link href="/ramps/houston/">
-            <Image src="/images/houston-small.png" width={307} height={150} />
+            <a>
+              {" "}
+              <Image src="/images/houston-small.png" width={307} height={150} />
+            </a>
           </Link>
         </div>
         <Ramps ramps={ramps} />
@@ -37,8 +46,7 @@ export default function Home({ ramps }) {
               href="https://juicemagazine.com/home/this-beautiful-frenzied-madness-skating-at-fifty"
               target="_blank"
             >
-              The Philosopher Colin Ruloff writes about skating vert at
-              age 50
+              The Philosopher Colin Ruloff writes about skating vert at age 50
             </A>
           </li>
         </ul>
@@ -54,6 +62,8 @@ export async function getStaticProps(context) {
   const filenames = await fs.readdir(dir);
   const ramps = [];
   for (const filename of filenames) {
+    if (!filename.endsWith('.md')) continue;
+    if (filename[0] == '.') continue;
     if (!(await fs.stat(dir + "/" + filename)).isFile()) continue;
     const { frontMatter } = await import("pages/ramps/" + filename);
     const base = filename.split(".").slice(0, -1).join(".");
