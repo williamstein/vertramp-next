@@ -41,7 +41,11 @@ export function RampSummary({ ramp, long }: { ramp: Ramp; long?: boolean }) {
   return (
     <span>
       {ramp.title} - {ramp.location}
-      {ramp.type == "public" ? " - Public" : " - Private"}{" "}
+      {ramp.type == "public"
+        ? " - Public"
+        : ramp.type == "private"
+        ? " - Private"
+        : ""}{" "}
       <span>
         {" "}
         - <Status ramp={ramp} long={long} />
@@ -61,5 +65,5 @@ export function Status({ ramp, long }: { ramp: Ramp; long?: boolean }) {
     x = <span>Unknown</span>;
   }
   if (!long) return x;
-  return <span>Status: {x}</span>
+  return <span>Status: {x}</span>;
 }

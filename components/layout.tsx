@@ -17,9 +17,9 @@ export default function Layout({ children, frontMatter }) {
             <span style={{ fontSize: "32px" }}>Vert Ramps</span>
           </a>
         </Link>
-        <h3 style={{ float: "right", marginTop: "15px", color:"#333" }}>
+        <h4 style={{ float: "right", marginTop: "15px", color:"#666" }}>
           {frontMatter && <RampSummary ramp={frontMatter} long={true} />}
-        </h3>
+        </h4>
       </div>
 
       <div
