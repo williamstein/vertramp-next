@@ -1,5 +1,5 @@
 import { MDXProvider } from "@mdx-js/react";
-//import "../styles/globals.css";
+import "styles/global.css";
 import Layout from "components/layout";
 import MDXImage from "components/mdx-image";
 import MDXLink from "components/mdx-link";
