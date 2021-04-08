@@ -21,4 +21,10 @@ Here's a picture of me doing a rock-n-roll and a feeble fakie:
 
 <br/>
 
+Here's a video we made when we skate there:
+
+<iframe src="https://www.youtube.com/embed/HZAYhHla7Es"/>
+
+<br/>
+
 - [Dan's page has some more great photos](https://www.northwestskater.com/sk8asylum.html)
