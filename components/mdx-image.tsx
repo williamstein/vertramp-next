@@ -27,7 +27,11 @@ export default function MDXImage(props) {
     );
   }
 
-  return <Image {...props2} />;
+  return (
+    <div style={{ margin: "15px 0", textAlign: "center" }}>
+      <Image {...props2} />
+    </div>
+  );
 }
 
 function toNumber(x: string | number): number {
