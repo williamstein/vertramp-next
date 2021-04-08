@@ -45,7 +45,6 @@ export default function Donate() {
             <td>
               <input
                 alt="PayPal – The safer, easier way to pay online!"
-                border="0"
                 name="submit"
                 src="https://www.paypalobjects.com/en_US/AU/i/btn/btn_auto_billing_CC_LG.gif"
                 type="image"
@@ -55,7 +54,6 @@ export default function Donate() {
         </table>
         <img
           alt=""
-          border="0"
           height="1"
           src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
           width="1"
