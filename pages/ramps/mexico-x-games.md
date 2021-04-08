@@ -2,6 +2,7 @@
 title: Fishbone SK8 Park
 submitted: Diego Soto, Nov 2016
 location: Mexico City
+status: 'closed'
 ---
 
 [Fishbone Skate Park](https://fishbone.com.mx/) in Mexico City

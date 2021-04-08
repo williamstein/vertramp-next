@@ -5,6 +5,7 @@ export default function Layout({ children }) {
     <>
       <div
         style={{
+          background: "#efefef",
           padding: "0 30px",
           marginBottom: "30px",
           borderBottom: "1px solid lightgrey",
@@ -12,7 +13,7 @@ export default function Layout({ children }) {
       >
         <Link href="/">
           <a>
-            <span style={{ fontSize: "64px" }}>Vert Ramps</span>
+            <span style={{ fontSize: "32px" }}>Vert Ramps</span>
           </a>
         </Link>
       </div>

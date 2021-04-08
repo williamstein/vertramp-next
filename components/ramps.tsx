@@ -9,7 +9,10 @@ export default function Ramps({ ramps }) {
       </li>
     );
   }
-  return <ul>{v}</ul>;
+  return <div>
+    <h2>Ramps</h2>
+    <ul>{v}</ul>
+  </div>;
 }
 
 interface Ramp {
@@ -26,7 +29,7 @@ function Ramp({ ramp }: { ramp: Ramp }) {
       <a>
         {ramp.title} - {ramp.location}
         {ramp.type == "public" ? " - Public" : " - Private"}{" "}
-        {ramp.status == "active" ? <b> (active)</b> : ""}
+        <b> ({ramp.status ?? "unknown status"})</b>
       </a>
     </Link>
   );
