@@ -71,16 +71,16 @@ export async function getStaticProps(context) {
     ramps.push({ ...(frontMatter ?? { title: base }), url });
   }
   ramps.sort((a, b) => {
+    const x = a.priority ?? 999999,
+      y = b.priority ?? 9999999;
+    if (x < y) return -1;
+    if (x > y) return 1;
     if (a.status == "active" && b.status != "active") {
       return -1;
     }
     if (a.status != "active" && b.status == "active") {
       return 1;
     }
-    const x = a.priority ?? 999999,
-      y = b.priority ?? 9999999;
-    if (x < y) return -1;
-    if (x > y) return 1;
     return 0;
   });
   return { props: { ramps } };

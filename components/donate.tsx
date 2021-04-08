@@ -3,7 +3,7 @@ export default function Donate() {
     <div
       style={{
         margin: "30px auto",
-        width: "50%",
+        maxWidth: "450px",
         marginTop: "15px",
         border: "1px solid lightgrey",
         padding: "15px 15px 0",
