@@ -25,7 +25,7 @@ staircase.
 
 
 <br/><br/>
-<iframe src="https://www.youtube.com/embed/z7HWRToiOxE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+<iframe src="https://www.youtube.com/embed/z7HWRToiOxE"/>
 
 ## Links
 

@@ -28,4 +28,4 @@ The ramp is on the Clark Kerr part of campus (where other athletic facilities ar
 
 Here's a video I found that shows off the ramp:
 
-<iframe src="https://player.vimeo.com/video/48728739"  frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe>
+<iframe src="https://player.vimeo.com/video/48728739" />
