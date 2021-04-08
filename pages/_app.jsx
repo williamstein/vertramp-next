@@ -3,7 +3,7 @@ import { MDXProvider } from "@mdx-js/react";
 import Layout from "components/layout";
 import MDXImage from "components/mdx-image";
 import MDXLink from "components/mdx-link";
-import "antd/dist/antd.css";
+import "antd/dist/antd.min.css";
 
 const components = {
   img: MDXImage,

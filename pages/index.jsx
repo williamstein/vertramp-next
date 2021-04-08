@@ -12,6 +12,9 @@ export default function Home({ ramps }) {
       </Head>
 
       <main>
+        <div style={{ marginBottom: "30px" }}>
+          <Image src="/images/svr-pano-small.jpg" width={450} height={150} />
+        </div>
         <Ramps ramps={ramps} />
       </main>
     </div>

@@ -19,4 +19,4 @@ also built [his ramps in Tacoma](/ramps/ryan/).
 
 I did 43 tricks at SVR on my 43rd birthday...
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-5FbvrRzHak" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+<iframe src="https://www.youtube.com/embed/-5FbvrRzHak" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
