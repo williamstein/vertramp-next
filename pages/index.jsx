@@ -13,7 +13,12 @@ export default function Home({ ramps }) {
 
       <main>
         <div style={{ marginBottom: "30px" }}>
-          <Image src="/images/svr-pano-small.jpg" width={450} height={150} />
+          <Link href="/ramps/svr/">
+            <Image src="/images/svr-pano-small.jpg" width={450} height={150} />
+          </Link>
+          <Link href="/ramps/houston/">
+            <Image src="/images/houston-small.png" width={307} height={150} />
+          </Link>
         </div>
         <Ramps ramps={ramps} />
       </main>
@@ -35,6 +40,12 @@ export async function getStaticProps(context) {
     ramps.push({ ...(frontMatter ?? { title: base }), url });
   }
   ramps.sort((a, b) => {
+    if (a.status == "active" && b.status != "active") {
+      return -1;
+    }
+    if (a.status != "active" && b.status == "active") {
+      return 1;
+    }
     const x = a.priority ?? 999999,
       y = b.priority ?? 9999999;
     if (x < y) return -1;

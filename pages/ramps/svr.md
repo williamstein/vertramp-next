@@ -8,7 +8,7 @@ priority: 0
 ---
 # Seattle Vert Ramp
 
-<img src="../../public/images/svr-pano.jpg"   width="584px"  height="188px" />
+<img src="../../public/images/svr-pano.jpg"   width="843px"  height="267px" />
 
 Seattle Vert Ramp (SVR) is our ramp pictured above, which we built in 2012.
 

@@ -36,6 +36,7 @@ export default function Layout({ children }) {
           marginTop: "50px",
           background: "#efefef",
           fontSize: "12pt",
+          textAlign: "center",
         }}
       >
         <div>
