@@ -30,7 +30,6 @@ export default function Home({ ramps }) {
             </a>
           </Link>
         </div>
-        <Ramps ramps={ramps} />
         <h2>Articles</h2>
         <ul>
           <li>
@@ -50,6 +49,8 @@ export default function Home({ ramps }) {
             </A>
           </li>
         </ul>
+
+        <Ramps ramps={ramps} />
       </main>
     </div>
   );

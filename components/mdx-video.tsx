@@ -24,7 +24,7 @@ export default function Video({ src }: { src: string }) {
       position: "absolute",
       left: "0px",
       top: "0px",
-    },
+    } as React.CSSProperties,
   };
   return (
     <div style={{ margin: "15px 0" }}>

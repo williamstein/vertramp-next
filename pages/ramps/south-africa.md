@@ -1,5 +1,5 @@
 ---
-title: ?
+title: Midrand
 location: Midrand, South Africa
 type: public
 ---

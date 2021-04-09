@@ -7,7 +7,8 @@
     "build": "time next build",
     "start": "next start",
     "static": "NEXT_STATIC='yes' time next build && time next export",
-    "export": "BASE_PATH=/next time next build && time next export -o $HOME/www/next/"
+    "export": "BASE_PATH=/next time next build && time next export -o $HOME/www/next/",
+    "live": "unset COCALC_PROJECT_ID && time next build && time next export -o $HOME/www/"
   },
   "dependencies": {
     "@mdx-js/loader": "^1.6.22",
