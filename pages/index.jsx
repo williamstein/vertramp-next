@@ -9,7 +9,7 @@ export default function Home({ ramps }) {
     <div>
       <Head>
         <title>Ramps</title>
-        <link rel="icon" href={`${process.env.basePath}/favicon.ico`} />
+        <link rel="icon" href={`${process.env.basePath ?? ""}/favicon.ico`} />
       </Head>
 
       <main>
@@ -21,12 +21,6 @@ export default function Home({ ramps }) {
                 width={450}
                 height={150}
               />
-            </a>
-          </Link>
-          <Link href="/ramps/houston/">
-            <a>
-              {" "}
-              <Image src="/images/houston-small.png" width={307} height={150} />
             </a>
           </Link>
         </div>
@@ -51,6 +45,14 @@ export default function Home({ ramps }) {
         </ul>
 
         <Ramps ramps={ramps} />
+
+                  <Link href="/ramps/houston/">
+            <a>
+              {" "}
+              <Image src="/images/houston-small.png" width={307} height={150} />
+            </a>
+          </Link>
+
       </main>
     </div>
   );
