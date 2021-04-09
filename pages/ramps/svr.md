@@ -27,3 +27,6 @@ Unlike the other ramps on this website, this ramp is ours (!), and I've skated i
 <iframe src="https://www.youtube.com/embed/-5FbvrRzHak"/>
 
 
+The week that the Creature team visited and skated all day, every day, at SVR was probably the most intense super session at the ramp.  Here's some video from that:
+
+<iframe src="https://www.youtube.com/embed/aaIIiLItbaY"/>

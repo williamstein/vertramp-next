@@ -8,7 +8,7 @@ submitted: Adam Varney (Sept 29, 2019)
 
 # CT bike and indoor skatepark - world's oldest indoor vert ramp
 
-CT bike and indoor skatepar[http://ctbike.com/](http://ctbike.com/)k in Bristol, Connecticut
+[CT bike and indoor skatepark](http://ctbike.com/) in Bristol, Connecticut
 has the world's oldest indoor skatepark and vert ramp.
 It was built in 1987 and is still skated, over 3 decades
 later!

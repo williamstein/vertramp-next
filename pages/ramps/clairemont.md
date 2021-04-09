@@ -17,4 +17,4 @@ I skated the old ramp many times when I lived in San Diego (2005-2006), and my b
 
 Of course, the most exciting skateing of the year here is usually the famous Clash at Clairemont.  Here's 2019 with the new steel frame ramp.
 
-https://www.youtube.com/embed/pTUBJMPs1XQ
+<iframe src="https://www.youtube.com/embed/pTUBJMPs1XQ"/>
