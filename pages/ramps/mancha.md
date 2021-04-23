@@ -14,7 +14,7 @@ concrete features, and this is the half that left.
 I've skated it a few times, and every session was **awesome**.  Here
 is me doing my best [Paul-luc Ronchetti](https://www.instagram.com/plronchetti/?hl=en) impersonation while rocking my Seattle Vert Ramp shirt (the real PLR is standing right behind me):
 
-<img src="../../public/images/me-plr-mancha.png" width="700px" height="525px"/>
+<img src="../../public/images/me-plr-mancha.png"   width="700px"  height="525px" />
 
 <br/><br/>
 Here's me and Ryan Hass after a session; this picture gives a good
@@ -23,8 +23,8 @@ get up the pictured side of the ramp, whereas the other side has a nice
 staircase.
 <img src="../../public/images/mancha-me-ryan-hass.png" width="700px" height="525px"/>
 
-
 <br/><br/>
+
 <iframe src="https://www.youtube.com/embed/z7HWRToiOxE"/>
 
 ## Links

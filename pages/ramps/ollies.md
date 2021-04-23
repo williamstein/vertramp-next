@@ -5,7 +5,7 @@ location: Florence, KY
 ---
 # Ollie's Skatepark in Florence, KY
 
-Specs: 13' tall with 2' of vert, 14' of flat, and 72' wide.
+Specs: 13' tall with 2' of vert, 14' of flat, and 56' wide.
 
 Indoors with Ramp Armour.
 
