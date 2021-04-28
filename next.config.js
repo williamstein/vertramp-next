@@ -12,9 +12,6 @@ module.exports = withMDX({
   env: {
     basePath,
   },
-  future: {
-    webpack5: true,
-  },
   pageExtensions: ["md", "mdx", "jsx", "js", "ts", "tsx"],
   trailingSlash: true, // critical to support static export!
 });
