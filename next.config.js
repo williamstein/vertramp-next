@@ -1,5 +1,7 @@
 const basePath = require("./lib/basePath")();
 
+console.log(`basePath="${basePath}"`);
+
 const withMDX = require("@next/mdx")({
   extension: /\.mdx?$/,
   options: {
