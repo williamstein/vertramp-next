@@ -1,12 +1,14 @@
 ---
 title: Keyholders Ramp
 submitted: Mike Smith, Nov 1, 2018
-status: active
+status: closed
 type: public
 location: North Tonawanda, NY
 ---
 
 # The Keyholders Ramp
+
+**Update May 7, 2022:** *"I called them up a few minutes ago they said all the Ramps out back got torn down over the winter...."* - Rik Rule
 
 <img src="../../public/images/keyholders.png" width="500px" height="300px"/>
 
