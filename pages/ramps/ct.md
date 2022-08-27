@@ -1,7 +1,7 @@
 ---
 title: CT bike and indoor skatepark
 location: Bristol, Connecticut
-status: active
+status: closed
 type: public
 submitted: Adam Varney (Sept 29, 2019)
 ---
@@ -24,3 +24,11 @@ future.
 Watch the video below to see that this ramp is HARD CORE!!
 
 <iframe src="https://www.youtube.com/embed/CbPyaGTSx3k"/>
+
+## UPDATE - closing for good on Sept 24th, 2022
+
+From mrferris2u:
+
+> "I was just there today looking to start skating vert.  They're closing for good Sept 24th.  Apparently looking for a buyer."
+
+<img src="../../public/images/ct-closing.png" width="600px" height="600px"/>
