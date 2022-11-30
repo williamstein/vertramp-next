@@ -41,3 +41,4 @@ and another
 -- unfortunately,  Rye Airfeld is now closed as our man Joe in the field reports
 
 > "So sad. Was supposed to skate this vert ramp first time ever. I arrived, but thanks to covid, the ramp was down to the sheathing being disassembled and moved to Buffalo. Rye closed too.  How is it the best park in the northeast closed? Save VERT!!! The closest ramp is [in Connecticut](/ramps/ct). Why!? Just WHY!?!?!?   I met the guy who bought the ramp, super awesome dude. They're rebuilding it somewhere in Buffalo sometime in the future."
+
